@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository."
+title: "Gabor seismic filter"
+type: software
+authors:
+  - family-names: Aminian
+    given-names: Mohammad-Amin
+repository-code: "https://github.com/MohammadAmin-Aminian/gabor-seismic-filter"
+license: BSD-2-Clause
+version: 1.0.0
+date-released: 2026-09-24

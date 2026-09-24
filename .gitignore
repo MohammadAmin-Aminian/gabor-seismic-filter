@@ -1,0 +1,8 @@
+*.asv
+*.m~
+*.mat
+*.fig
+slprj/
+codegen/
+*.mex*
+.DS_Store
