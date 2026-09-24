@@ -94,6 +94,21 @@ physical parameters, and summing complex responses may introduce cancellation.
 Users should validate the settings against a suitable reference for each
 survey. Boundary behavior follows `imfilter` with zero padding.
 
+### Supplied real-world example
+
+The following supplied figure shows the workflow applied to a real seismic
+section. The left panel is the input section and the right panel is the summed
+Gabor response. The processed view emphasizes laterally continuous events and
+suppresses much of the short-wavelength directional texture present in the
+input.
+
+![Real seismic section before and after Gabor filtering](figures/Real_Section.jpg)
+
+Only the result figure is published. The underlying field data were not
+supplied for redistribution, so this example cannot be rerun from the
+repository and should be treated as a qualitative illustration rather than a
+quantitative validation.
+
 The labels in the original script treated each five-filter group as five
 degrees. With 180 filters spanning 180 degrees, each filter is one degree and
 each group spans approximately five degrees; the cleaned API therefore calls
@@ -106,7 +121,7 @@ src/       Clean reusable MATLAB functions
 examples/  Reproducible synthetic data and demonstration
 tests/     Numerical equivalence and determinism tests
 original/  Untouched supplied sources retained for provenance
-figures/   Selected supplied figures only
+figures/   Selected supplied synthetic, filter-bank, and real-section figures
 ```
 
 The paper PDF and unavailable research dataset are intentionally excluded.
