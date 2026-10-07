@@ -1,5 +1,8 @@
 # Gabor seismic filter
 
+[![MATLAB tests](https://github.com/MohammadAmin-Aminian/gabor-seismic-filter/actions/workflows/tests.yml/badge.svg)](https://github.com/MohammadAmin-Aminian/gabor-seismic-filter/actions/workflows/tests.yml)
+[![License: BSD-2-Clause](https://img.shields.io/badge/License-BSD--2--Clause-blue.svg)](LICENSE)
+
 A compact MATLAB implementation of an experimental workflow for emphasizing
 selected orientations in 2-D seismic sections with a complex Gabor filter
 bank. The repository preserves the supplied source, exposes the core method as
@@ -139,3 +142,8 @@ The original filter-bank routines request citation of:
 > M. Haghighat, S. Zonouz, and M. Abdel-Mottaleb, “CloudID: Trustworthy
 > cloud-based and cross-enterprise biometric identification,” *Expert Systems
 > with Applications*, 42(21), 7905-7916, 2015.
+
+
+## Development
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the validation and contribution workflow.
